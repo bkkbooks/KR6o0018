@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6o0018/v1
+canonical_location: https://kanripo.org/bkk/KR6o0018/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 因明義斷
+  identifiers:
+    alt_id:
+    - T44n1841
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T44/T44n1841.xml
+    old_id: T44n1841
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 原
+  label: 原
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0018_000.yaml, hash: 'sha256:b6eb64813d78ddfc007c11322c87a86d718805dafbd6ee3fb4164666e75866ea'}
+  - {seq: 1, filename: KR6o0018_001.yaml, hash: 'sha256:47af69e72e444ea575e75b2861230579f793ae86898c84b2307cb98dba01a27a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0018_001.markers.yaml, hash: 'sha256:9704691aa17c8199211b89e5cc5460eee208ab7c8ee0f8df3e51d7b54ed12df0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0018_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 21652
+  label: 因明義斷
+  type: juan
+  level: 1
+hash: sha256:4d2a3894853979d87a707d90704d1cf72046d8b041c35c584516c5c06255067c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
